@@ -30,11 +30,11 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework', #required for producing JSON format data products, category etc
     'rest_framework.authtoken', # required for custom sign-up instead using django's in-built sign-up
-    # 'PTCApp.user',
-    # 'PTCApp.category',
-    # 'PTCApp.product',
-    # 'PTCApp.payment',
-    # 'PTCApp.order',
+    'PTCApp.user',
+    'PTCApp.category',
+    'PTCApp.product',
+    'PTCApp.payment',
+    'PTCApp.order',
 ]
 
 MIDDLEWARE = [
